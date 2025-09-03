@@ -3,9 +3,7 @@
   "version": "0.0.3",
   "description": "mcptest MCP server",
   "type": "module",
-  "bin": {
-    "mymcp": "./dist/index.js"
-  },
+  "bin": "./dist/index.js",
   "files": [
     "dist"
   ],
