@@ -19,7 +19,7 @@ class ExampleTool extends MCPTool {
     - .prettierrc
     - .vscode/settings.json
 
-    In .nvmrc, please specify Node.js version 24.
+    In .nvmrc, specify Node.js version 24.
     
     Next, install only the development dependencies (devDependencies) using npm install:
 
