@@ -1,0 +1,37 @@
+{
+  "name": "mympc",
+  "version": "0.0.1",
+  "description": "mcptest MCP server",
+  "type": "module",
+  "bin": {
+    "mymcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dottgonzo/mymcp.git"
+  },
+  "scripts": {
+    "build": "tsc && mcp-build",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "release:patch": "npm version patch && npm run push",
+    "release:minor": "npm version minor && npm run push",
+    "release:major": "npm version major && npm run push",
+    "push": "git push && git push --tags && sudo ./buildXAndPush.sh"
+  },
+  "dependencies": {
+    "mcp-framework": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  }
+}

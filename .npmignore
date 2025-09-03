@@ -1,0 +1,14 @@
+src/
+.git/
+.gitignore
+.nvmrc
+.prettierrc
+.vscode/
+.DS_Store
+.idea/
+.env
+logs/
+.cursor/
+buildXAndPush.sh
+Dockerfile
+tsconfig.json
