@@ -1,6 +1,6 @@
 {
   "name": "mympc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mcptest MCP server",
   "type": "module",
   "bin": {
