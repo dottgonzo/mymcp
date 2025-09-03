@@ -2,7 +2,7 @@ from node:24-alpine
 CMD ["npm", "start"]
 WORKDIR /app
 COPY ./tsconfig.json .
-COPY package.json .
+COPY package*.json .
 
 RUN npm install
 
