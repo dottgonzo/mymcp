@@ -20,7 +20,7 @@
     "release:patch": "npm version patch && npm run push",
     "release:minor": "npm version minor && npm run push",
     "release:major": "npm version major && npm run push",
-    "push": "git push && git push --tags && sudo ./buildXAndPush.sh"
+    "push": "git push && git push --tags && ./buildXAndPush.sh && npm publish"
   },
   "dependencies": {
     "mcp-framework": "^0.2.2"
