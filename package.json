@@ -14,7 +14,7 @@
     "url": "git@github.com:dottgonzo/mymcp.git"
   },
   "scripts": {
-    "build": "tsc && mcp-build",
+    "build": "tsc && mcp-build && chmod +x dist/index.js",
     "watch": "tsc --watch",
     "start": "node dist/index.js",
     "release:patch": "npm version patch && npm run push",
@@ -23,7 +23,7 @@
     "push": "git push && git push --tags && ./buildXAndPush.sh && npm publish"
   },
   "dependencies": {
-    "mcp-framework": "^0.2.2"
+    "mcp-framework": "^0.2.15"
   },
   "devDependencies": {
     "@types/node": "^24.3.1",
