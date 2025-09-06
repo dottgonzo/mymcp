@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { MCPServer, type MCPServerConfig } from "mcp-framework";
 
 let mcpConfig: MCPServerConfig | undefined;
