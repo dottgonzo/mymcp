@@ -1,10 +1,10 @@
 {
-  "name": "mymcp",
+  "name": "@dariocaruso/mymcp",
   "version": "0.0.0",
   "description": "mcptest MCP server",
   "type": "module",
   "bin": {
-    "mymcp": "./dist/index.js"
+    "@dariocaruso/mymcp": "./dist/index.js"
   },
   "files": [
     "dist"
