@@ -1,9 +1,8 @@
 // MCP server using HTTP or SSE - runs on a server
 {
-    "mcpServers": {
-      "server-name": {
-        "url": "http://localhost:8080"
-
-      }
+  "mcpServers": {
+    "server-name": {
+      "url": "http://localhost:8080"
     }
   }
+}
