@@ -3,7 +3,7 @@
     "@dariocaruso/mymcp": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-server"]
+      "args": ["-y", "@dariocaruso/mymcp"]
     }
   }
 }
