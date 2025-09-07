@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "mcptest MCP server",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "@dariocaruso/mymcp": "./dist/index.js"
   },
